@@ -1,0 +1,52 @@
+.wl-consultant {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-right: 50px;
+    border: 1px solid #000000;
+    border-bottom: 0;
+    border-radius: 10px 25px 0 0;
+}
+
+.wl-consultant_header {
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.wl-consultant_header:hover {
+    cursor: pointer;
+}
+
+.wl-consultant_header span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wl-consultant_contacts {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wl-consultant_contact {
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hidden {
+    bottom: -75px;
+}
+
+.visible {
+    bottom: 0;
+}
