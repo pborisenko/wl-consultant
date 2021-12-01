@@ -1,0 +1,135 @@
+body {
+    background: url('139960-cvetochnyj_dizajn-lepestok-nebo-fialka-cvetochnyj_buket-2048x1365.jpg') no-repeat fixed;
+    color:#8B4513;
+    font-family: Chancery L, cursive;
+}
+
+h1, h2 {
+   text-align: center;
+}
+
+h3 {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.bio {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bio p{
+    text-align: justify;
+}
+
+.menu {
+    width: 100%;
+    background: #DA70D6;
+}
+
+.menu ul {
+    width: 60%;
+    height: 60px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    width: 20%;
+    height: 16px;
+    float: left;
+    list-style-type: none;
+    margin: 0 10px;
+    text-align: center;
+    padding: 22px 0;
+}
+
+.menu ul li:hover {
+    background: rgba(109, 17, 117, 0.548);
+    cursor: pointer;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.zv li {
+    list-style: none;
+    font-size: 20px
+}
+
+.zv li ::before {
+    content: "🟊";
+    font-size: 70px;
+    vertical-align: middle;
+    line-height: 20px;
+    color: rgba(109, 17, 117, 0.548);
+
+}
+
+.zv ul li h2 {
+    list-style-type: circle;
+       text-align: left;
+       color:#8B4513;
+}
+
+.zv ul li iframe {
+    width: 40%;
+    height: 60%;
+}
+
+.zv ul li audio {
+    width: 40%;
+    height: 10%;
+}
+
+.qu table {
+    border-spacing: 0 0 px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 30px auto;
+    width: 750px;
+    height: 600px;
+    align-items: center;
+    table-layout: fixed;
+    vertical-align: top;
+    font-family: Chancery L, cursive;
+}
+
+.qu tr {
+    padding: 0px 0px;
+    background: #ecbcdc;
+    color:#56433D;
+    border-right: 0px solid; 
+    font-size: 0.9em;
+}
+
+
+.qu tr:first-child {
+    height: 0 px;
+    }
+
+    .qu tr:last-child {
+    border-right: none;
+    }
+
+.qu td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 0px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;   
+}
+
+.qu td:first-child {
+    padding: 10px 20px;
+    border-right: 2px solid; 
+    height:5%;
+}
